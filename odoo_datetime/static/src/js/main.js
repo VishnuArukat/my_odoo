@@ -12,7 +12,7 @@ odoo.define('odoo_datetime.main', function (require) {
             var context = _.extend({}, record.attributes, {
                 uid: session.uid,
                 current_date: moment().format('YYYY-MM-DD'),
-                current_datetime: moment().utc().format('YYYY-MM-DD hh:mm:ss'),
+                current_datetime: moment().utc().format('YYYY-MM-DD HH:mm:ss'),
 
             });
             _.each(this.decoration, function(expr, decoration) {
@@ -27,7 +27,7 @@ odoo.define('odoo_datetime.main', function (require) {
             var context = _.extend({}, record.attributes, {
                 uid: session.uid,
                 current_date: moment().format('YYYY-MM-DD'),
-                current_datetime: moment().utc().format('YYYY-MM-DD hh:mm:ss'),
+                current_datetime: moment().utc().format('YYYY-MM-DD HH:mm:ss'),
 
             });
             var i;
@@ -73,7 +73,7 @@ odoo.define('odoo_datetime.main', function (require) {
         var context = _.extend({}, record, {
             uid: session.uid,
             current_date: moment().format('YYYY-MM-DD'),
-            current_datetime: moment().utc().format('YYYY-MM-DD hh:mm:ss'),
+            current_datetime: moment().utc().format('YYYY-MM-DD HH:mm:ss'),
 
         });
         for(var i=0, len=this.colors.length; i<len; ++i) {
