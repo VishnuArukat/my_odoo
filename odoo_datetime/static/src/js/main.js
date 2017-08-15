@@ -1,4 +1,4 @@
-odoo.define('test_odoo.main', function (require) {
+odoo.define('odoo_datetime.main', function (require) {
     "use strict";
 
 //    JS for adding the current_datetime object for comparison in tree and other places

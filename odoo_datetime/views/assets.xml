@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
-        <template id="test_odoo_current_datetime" name="test_odoo templates" inherit_id="web.assets_backend">
+        <template id="odoo_datetime_current_datetime" name="odoo_datetime templates" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
-                <script type="text/javascript" src="/test_odoo/static/src/js/main.js"></script>
+                <script type="text/javascript" src="/odoo_datetime/static/src/js/main.js"></script>
             </xpath>
         </template>
     </data>
